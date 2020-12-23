@@ -12,17 +12,17 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 
+        name:
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: 
+        short_name:
         # The start URL of the web application
-        start_url: 
+        start_url:
         # The default theme color for the application
-        theme_color: 
+        theme_color:
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color:
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -33,68 +33,68 @@ head:
                 # A string containing space-separated image dimensions
                 sizes: ''
                 # A hint as to the media type of the image
-                type: 
+                type:
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image:
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card:
         # Twitter ID (twitter:creator)
-        twitter_id: 
+        twitter_id:
         # Twitter Site (twitter:site)
-        twitter_site: 
+        twitter_site:
         # Google+ profile link (deprecated)
-        google_plus: 
+        google_plus:
         # Facebook admin ID
-        fb_admins: 
+        fb_admins:
         # Facebook App ID
-        fb_app_id: 
+        fb_app_id:
     # Structured data of the page
     # https://developers.google.com/search/docs/guides/intro-structured-data
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description:
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author:
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: 
+        image:
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss:
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -217,24 +217,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Steven Xu
         # Author title
-        author_title: Your title
+        author_title: Developer
         # Author's current location
-        location: Your location
+        location: Melbourne, AU
         # URL or path to the avatar image
-        avatar: 
+        avatar:
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: 
+        gravatar:
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/xuhaotian'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/xuhaotian'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
@@ -293,7 +293,7 @@ widgets:
         position: left
         type: subscribe_email
         # Hint text under the email input
-        description: 
+        description:
         # Feedburner ID
         feedburner_id: ''
     # Google AdSense unit configurations
@@ -316,12 +316,12 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id:
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
         # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
+        tracking_id:
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: false
@@ -329,9 +329,9 @@ plugins:
     # https://www.umeng.com/web
     cnzz:
         # CNZZ tracker id
-        id: 
+        id:
         # CNZZ website id
-        web_id: 
+        web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -351,12 +351,12 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id:
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id: 
+        site_id:
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -372,14 +372,14 @@ plugins:
     # https://statcounter.com/
     statcounter:
         # Statcounter project id
-        project: 
+        project:
         # Statcounter project security code
-        security: 
+        security:
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
     twitter_conversion_tracking:
         # Twitter Pixel ID
-        pixel_id: 
+        pixel_id:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
