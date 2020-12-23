@@ -31,5 +31,5 @@ jobs:
       - name: Hexo deploy
         run: |
           hexo clean
-          hexo d
+          hexo g -d
           echo "stevenx.org" > CNAME
