@@ -4,7 +4,7 @@ description: ''
 keywords: null
 author: Steven Xu
 language: en
-timezone: 'Australia/Melbourne'
+timezone: Australia/Melbourne
 url: 'https://stevenx.org'
 root: /
 permalink: ':year/:month/:day/:title/'
